@@ -38,8 +38,8 @@ async function loadProducts() {
 
       card.innerHTML = `
         ${
-          product.image_url
-            ? `<img src="${product.image_url}" alt="${product.name}">`
+          product.image
+            ? `<img src="${product.image}" alt="${product.name}">`
             : `<div style="
                 height:220px;
                 background:#181818;
